@@ -1,0 +1,36 @@
+// IO examples of the form "x1" "x2" "v"
+// f(x1, x2) = v
+//
+"1some" "1some" "0"
+"1some" "2some" "1"
+"1some" "3some" "1"
+"1some" "20some" "1"
+"1some" "21some" "1"
+//
+"2some" "1some" "-1"
+"2some" "2some" "0"
+"2some" "3some" "1"
+"2some" "20some" "1"
+"2some" "21some" "1"
+//
+"3some" "1some" "-1"
+"3some" "2some" "-1"
+"3some" "3some" "0"
+"3some" "20some" "1"
+"3some" "21some" "1"
+//
+"20some" "1some" "-1"
+"20some" "2some" "-1"
+"20some" "3some" "-1"
+"20some" "20some" "0"
+"20some" "21some" "1"
+//
+"21some" "1some" "-1"
+"21some" "2some" "-1"
+"21some" "3some" "-1"
+"21some" "20some" "-1"
+"21some" "21some" "0"
+//
+//
+"002some" "21some" "1"
+

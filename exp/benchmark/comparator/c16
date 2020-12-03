@@ -1,0 +1,10 @@
+// IO examples of the form "x1" "x2" "v"
+// f(x1, x2) = v
+//
+"KANADA32" "NEMECKO31" "1"
+"NEMECKO31" "SPANELSKO22" "1"
+"SPANELSKO22" "SLOVENSKO11" "1" 
+"SLOVENSKO11" "USA10" "1"
+"USA10" "NIZOZEMI3" "1"
+"NIZOZEMI3" "CESKO2" "1"
+

@@ -1,0 +1,5 @@
+// IO examples of the form "x1" "x2"
+// f(x1) = x2
+"$" "0024"
+"₡" "20A1"
+

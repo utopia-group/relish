@@ -1,0 +1,13 @@
+.DS_Store
+._*
+*.class
+/.settings
+*.swp
+*~
+*.bak
+*.log
+/bin/
+/classes/
+relish.jar
+cbmc-check.c
+cbmc-result.xml

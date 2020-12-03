@@ -1,0 +1,9 @@
+// IO examples of the form "x1" "x2" "v"
+// f(x1, x2) = v
+//
+"abaa" "bbaa" "0"
+"abaa" "bbba" "1"
+"acaa" "bbba" "1"
+"acaa" "bbb" "1"
+
+

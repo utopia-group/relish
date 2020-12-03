@@ -1,0 +1,39 @@
+// IO examples of the form "x1" "x2" "v"
+// f(x1, x2) = v
+//
+"z1.txt" "z1.txt" "0"
+"z1.txt" "z2.txt" "1"
+"z1.txt" "z10.txt" "1"
+"z1.txt" "z20.txt" "1"
+"z1.txt" "z100.txt" "1"
+// 
+"z2.txt" "z1.txt" "-1"
+"z2.txt" "z2.txt" "0"
+"z2.txt" "z10.txt" "1"
+"z2.txt" "z20.txt" "1"
+"z2.txt" "z100.txt" "1"
+// 
+"z10.txt" "z1.txt" "-1"
+"z10.txt" "z2.txt" "-1"
+"z10.txt" "z10.txt" "0"
+"z10.txt" "z20.txt" "1"
+"z10.txt" "z100.txt" "1"
+// 
+"z20.txt" "z1.txt" "-1"
+"z20.txt" "z2.txt" "-1"
+"z20.txt" "z10.txt" "-1"
+"z20.txt" "z20.txt" "0"
+"z20.txt" "z100.txt" "1"
+// 
+"z100.txt" "z1.txt" "-1"
+"z100.txt" "z2.txt" "-1"
+"z100.txt" "z10.txt" "-1"
+"z100.txt" "z20.txt" "-1"
+"z100.txt" "z100.txt" "0"
+//
+//
+"z20.txt" "z010.txt" "-1"
+"z20.txt" "zz010.txt" "-1"
+//
+"zz010.txt" "z20.txt" "1"
+

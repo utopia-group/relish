@@ -1,0 +1,27 @@
+// IO examples of the form "x1" "x2" "v"
+// f(x1, x2) = v
+//
+"7-abc.txt" "7-abc.txt" "0"
+"7-abc.txt" "7-bc.txt" "1"
+"7-abc.txt" "8-abc.txt" "1"
+"7-abc.txt" "15-abc.txt" "1"
+//
+"7-bc.txt" "7-abc.txt" "-1"
+"7-bc.txt" "7-bc.txt" "0"
+"7-bc.txt" "8-abc.txt" "1"
+"7-bc.txt" "15-abc.txt" "1"
+//
+"8-abc.txt" "7-abc.txt" "-1"
+"8-abc.txt" "7-bc.txt" "-1"
+"8-abc.txt" "8-abc.txt" "0"
+"8-abc.txt" "15-abc.txt" "1"
+//
+"15-abc.txt" "7-abc.txt" "-1"
+"15-abc.txt" "7-bc.txt" "-1"
+"15-abc.txt" "8-abc.txt" "-1"
+"15-abc.txt" "15-abc.txt" "0"
+// 
+"15-abc.txt" "20-abc.txt" "1"
+"8-ab.txt" "8-bcd.txt" "1"
+"8-ab.txt" "8-bcdaa.txt" "1"
+

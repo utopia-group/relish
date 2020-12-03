@@ -1,0 +1,18 @@
+// IO examples of the form "x1" "x2" "v"
+// f(x1, x2) = v
+//
+"b.mp3" "aaa.txt" "1"
+"aaazzz.cpp" "baa.java" "1"
+"baa.java" "aaaaaa.cpp" "-1"
+"aaaaaa.cpp" "bbbbbbaa.java" "1"
+"aaaaaa.cpp" "bbbbbbaaaa.java" "1"
+"bbbbbbaa.java" "aaaaaa.cpp" "-1"
+"a.cpp" "baa.java" "1"
+"bbbbb.py" "a.cpp" "-1"
+"bbbbb.py" "a.c" "-1"
+"a.c" "bbbbb.py" "1"
+"cccc.py" "a.c" "-1"
+"c.py" "j.c" "-1"
+"a.a" "a.b" "1"
+"a.b" "a.a" "-1"
+
